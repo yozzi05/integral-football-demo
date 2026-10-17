@@ -16,7 +16,6 @@
   --ink:#0b1430; --muted:#5d6a88; --line:rgba(255,255,255,.12);
   --paper:#f4f7fd; --card:#ffffff;
   --r:22px;
-  --img:"https://integral.football/wp-content";
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -55,7 +54,7 @@ header.nav .wrap{display:flex;align-items:center;justify-content:space-between;h
 
 /* hero */
 .hero{position:relative;color:#fff;background:var(--navy);overflow:hidden;isolation:isolate}
-.hero::before{content:"";position:absolute;inset:0;background:url("https://integral.football/wp-content/themes/futbol/images/main-bg.jpg") center/cover;opacity:.38;z-index:-2;transform:scale(1.05)}
+.hero::before{content:"";position:absolute;inset:0;background:url("assets/hero-bg.jpg") center/cover;opacity:.38;z-index:-2;transform:scale(1.05)}
 .hero::after{content:"";position:absolute;inset:0;background:
   radial-gradient(900px 500px at 85% 30%,rgba(47,107,255,.45),transparent 60%),
   linear-gradient(180deg,rgba(7,18,43,.4),rgba(7,18,43,.95) 92%);z-index:-1}
@@ -110,7 +109,7 @@ section{padding:110px 0}
 
 /* advantages */
 .adv{background:var(--navy);color:#fff;position:relative;overflow:hidden}
-.adv::before{content:"";position:absolute;inset:0;background:url("https://integral.football/wp-content/themes/futbol/images/preim-fon.jpg") center/cover;opacity:.1}
+.adv::before{content:"";position:absolute;inset:0;background:url("assets/adv-bg.jpg") center/cover;opacity:.1}
 .adv .wrap{position:relative}
 .adv .sec-head p{color:#a9b8de}
 .adv .eyebrow{color:var(--gold)}
@@ -281,7 +280,7 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="#">
-      <img src="https://integral.football/wp-content/uploads/2026/02/integral-logo.png" alt="Логотип Интеграл">
+      <img src="assets/logo.png" alt="Логотип Интеграл">
       <div><b>ИНТЕГРАЛ</b><small>Школа футбола</small></div>
     </a>
     <nav class="menu" id="menu">
@@ -320,7 +319,7 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
     </div>
     <div class="crest">
       <div class="ring"></div><div class="ring"></div>
-      <img src="https://integral.football/wp-content/uploads/2026/02/integral-logo.png" alt="">
+      <img src="assets/logo.png" alt="">
       <div class="chip c1"><span class="dot">🤝</span><div>ДЮСШ «ПФК ЦСКА»<small>Партнёрская программа</small></div></div>
       <div class="chip c2"><span class="dot">🥉</span><div>MCL весна 2026<small>3 место · III разряд</small></div></div>
     </div>
@@ -337,17 +336,17 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
     </div>
     <div class="tiles">
       <a class="tile reveal" href="https://integral.football/nashi-futbolisty/" target="_blank" rel="noopener">
-        <div class="bg" style="background-image:url('https://integral.football/wp-content/uploads/2025/06/665Gqc_0b94HwO71n-zV95-uGyfA3NVz2LwPPTMyv5RrQs489Ixxs0wBJIXj9V6bGRd_RhiXX5Jw89fH4xJC_qL1.jpg')"></div>
+        <div class="bg" style="background-image:url('assets/tile-kids.jpg')"></div>
         <span class="num">01</span><span class="arrow">→</span>
         <div><h3>Дети «Интеграл»</h3><p>Команды от 2011 до 2021 г.р. — от первых касаний мяча до формата 11×11.</p></div>
       </a>
       <a class="tile reveal" href="https://integral.football/turnirs/" target="_blank" rel="noopener">
-        <div class="bg" style="background-image:url('https://integral.football/wp-content/uploads/2024/06/MUMzD2htErs.jpg')"></div>
+        <div class="bg" style="background-image:url('assets/tile-tournaments.jpg')"></div>
         <span class="num">02</span><span class="arrow">→</span>
         <div><h3>Турниры</h3><p>Moscow Children's League, Детская лига «Прайм», MCL PRO, выездные кубки.</p></div>
       </a>
       <a class="tile reveal" href="#reviews">
-        <div class="bg" style="background-image:url('https://integral.football/wp-content/uploads/2020/06/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B.jpg')"></div>
+        <div class="bg" style="background-image:url('assets/tile-reviews.jpg')"></div>
         <span class="num">03</span><span class="arrow">→</span>
         <div><h3>Отзывы родителей</h3><p>«Ребёнок снова любит футбол, мотивирован, обрёл новых друзей».</p></div>
       </a>
@@ -363,17 +362,17 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
     </div>
     <div class="adv-grid">
       <div class="adv-card reveal">
-        <div class="ico"><img src="https://integral.football/wp-content/themes/futbol/images/preim.png" alt=""></div>
+        <div class="ico"><img src="assets/adv-1.png" alt=""></div>
         <h3>Опытный тренерский штаб</h3>
         <p>Тренеры с профессиональным игровым опытом и опытом работы с детьми. Умеют вовлекать и вдохновлять, воспитывают командный дух, сильный характер и волю.</p>
       </div>
       <div class="adv-card reveal">
-        <div class="ico"><img src="https://integral.football/wp-content/themes/futbol/images/preim2.png" alt=""></div>
+        <div class="ico"><img src="assets/adv-2.png" alt=""></div>
         <h3>Сотрудничество с академией ПФК ЦСКА</h3>
         <p>Стажировки тренеров при Академии, мастер-классы, товарищеские матчи всех возрастов. Лучших футболистов Центра просматривают в ДЮСШ «ПФК ЦСКА».</p>
       </div>
       <div class="adv-card reveal">
-        <div class="ico"><img src="https://integral.football/wp-content/themes/futbol/images/preim3.png" alt=""></div>
+        <div class="ico"><img src="assets/adv-3.png" alt=""></div>
         <h3>Игровая практика</h3>
         <p>Регулярные товарищеские матчи с командами Москвы и области, выездные и городские турниры, где ребята завоёвывают призовые места.</p>
       </div>
@@ -501,19 +500,19 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
     </div>
     <div class="news">
       <a class="post reveal" href="https://integral.football/2026/09/06/novyj-sezon-2026-2027/" target="_blank" rel="noopener">
-        <div class="ph"><img src="https://integral.football/wp-content/uploads/2026/09/IMG_3351-323x334.jpeg" alt="" loading="lazy"><span class="date">06.09.2026</span></div>
+        <div class="ph"><img src="assets/news-1.jpg" alt="" loading="lazy"><span class="date">06.09.2026</span></div>
         <div class="body"><h3>Новый сезон 2026/2027</h3><p>Призёры MCL получили III юношеский разряд, команда 2018/2019 впервые заявлена в турнир.</p><span class="more">ЧИТАТЬ ДАЛЕЕ →</span></div>
       </a>
       <a class="post reveal" href="https://integral.football/2026/06/04/detskaya-futbolnaya-liga-prajm-vesna-2026/" target="_blank" rel="noopener">
-        <div class="ph"><img src="https://integral.football/wp-content/uploads/2026/06/IsQxzKjfCJ-oUPLPP__wvvWUnLB0mKdwAceowU2P8aAG9VT5l5I0yD9DTmIRz-n2cP5ipjUQEmLyyWKWQRFVmRfg-1-323x334.jpg" alt="" loading="lazy"><span class="date">04.06.2026</span></div>
+        <div class="ph"><img src="assets/news-2.jpg" alt="" loading="lazy"><span class="date">04.06.2026</span></div>
         <div class="body"><h3>Детская лига «Прайм» весна 2026</h3><p>Четыре состава «Интеграла»: 2018, 2014/15, 2012/13 и 2011/12 — итоги чемпионата.</p><span class="more">ЧИТАТЬ ДАЛЕЕ →</span></div>
       </a>
       <a class="post reveal" href="https://integral.football/2026/04/08/rezultaty-zimnix-chempionatov-2025-2026/" target="_blank" rel="noopener">
-        <div class="ph"><img src="https://integral.football/wp-content/uploads/2026/04/EVcGCIUnsEV9b5l9JEtV0o5R5I-T-P7nPnMX9EAyYseywVT0X50ToyDt7yx6x1e8aj9VnY2jZZv4mMqiPwjnIzdH-323x334.jpg" alt="" loading="lazy"><span class="date">08.04.2026</span></div>
+        <div class="ph"><img src="assets/news-3.jpg" alt="" loading="lazy"><span class="date">08.04.2026</span></div>
         <div class="body"><h3>Итоги зимних чемпионатов 2025/2026</h3><p>«Интеграл 2011» — 4 место в MCL PRO, успехи младших составов в Детской лиге.</p><span class="more">ЧИТАТЬ ДАЛЕЕ →</span></div>
       </a>
       <a class="post reveal" href="https://integral.football/2026/04/08/otlichnye-novosti/" target="_blank" rel="noopener">
-        <div class="ph"><img src="https://integral.football/wp-content/uploads/2026/04/2026-04-08-22.13.16-323x334.jpg" alt="" loading="lazy"><span class="date">08.04.2026</span></div>
+        <div class="ph"><img src="assets/news-4.jpg" alt="" loading="lazy"><span class="date">08.04.2026</span></div>
         <div class="body"><h3>Отличные новости!</h3><p>Свежие события из жизни центра и наших команд.</p><span class="more">ЧИТАТЬ ДАЛЕЕ →</span></div>
       </a>
     </div>
@@ -560,7 +559,7 @@ footer .tel{font-family:Unbounded;color:#fff;font-size:20px;display:block;margin
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="brand" href="#" style="margin-bottom:18px"><img src="https://integral.football/wp-content/uploads/2026/02/integral-logo.png" alt=""><div><b>ИНТЕГРАЛ</b><small>ЦПЮФ</small></div></a>
+        <a class="brand" href="#" style="margin-bottom:18px"><img src="assets/logo.png" alt=""><div><b>ИНТЕГРАЛ</b><small>ЦПЮФ</small></div></a>
         <p>Центр подготовки юных футболистов «Интеграл». Партнёр ДЮСШ «ПФК ЦСКА».</p>
       </div>
       <div><h4>Центр</h4><ul><li><a href="https://integral.football/nashi-partnery/">Партнёры</a></li><li><a href="https://integral.football/blog/">Блог</a></li><li><a href="https://integral.football/galereya/">Фотогалерея</a></li><li><a href="https://integral.football/nashi-nagrady/">Наши награды</a></li></ul></div>
